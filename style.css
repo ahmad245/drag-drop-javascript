@@ -1,0 +1,48 @@
+.collection .collection-item {
+    display: flex;
+    width: auto;
+    padding: 0;
+    cursor: pointer;
+    /* background-color: #fff;
+    line-height: 1.5rem;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0 !important; */
+}
+.collection-item.over{
+    background-color: #eaeaeaea;
+}
+
+.draggable {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.draggable i{
+    padding-right: 1rem;
+}
+.draggable.over{
+    background-color: #eaeaeaea;
+}
+.index {
+    background-color: #eaeaeaea;
+    flex-shrink: 0;
+    align-self: auto;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    padding-left: 1rem;
+}
+
+.true{
+    color: #26a69a;
+    border: 1px solid #26a69a;
+}
+.false{
+    color: red;
+    border: 1px solid red;
+}
